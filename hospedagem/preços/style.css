@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0080ff;
+    padding: 20px 0;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #fff;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.pricing-table-container {
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.pricing-table thead th {
+    background-color: #0080ff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.pricing-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.pricing-table td.check {
+    color: #0080ff;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #0080ff;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer .logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+footer .developer-name {
+    font-weight: bold;
+}
